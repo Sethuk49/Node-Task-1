@@ -20,13 +20,6 @@ function getFileName(){
 
 fs.writeFileSync(`./${getFileName()}`, `${timeStamp}`, 'utf-8')
 
-// fs.readdirSync('.', (err, files)=>{
-//     if(!err){
-//         console.log(files)
-//     }else{
-//         console.log(err)
-//     }
-// });
 
 fs.readdir(dir_name, (err, files)=>{
     if(err){
@@ -38,7 +31,7 @@ fs.readdir(dir_name, (err, files)=>{
 
 app.get('/', (req, res)=>{
     console.log(req)
-    res.send('<h1>Welcome to Express JS</h1>')
+    res.send('<h1>Lets See the time and date</h1>')
     
 })
 
