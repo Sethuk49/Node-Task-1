@@ -1,0 +1,7 @@
+Render Deployed URL: https://node-task-1-vqj4.onrender.com/
+
+I have created one endpoint and it is '/' and as instruced filename is current date and time also the file content is current timestamp.
+
+GitHub URL: https://github.com/Sethuk49/Node-Task-1
+
+Last committed Hash ID: 717f85bfa6e74ad1331e00a55f6d66d8a8e02eaa
